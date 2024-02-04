@@ -42,6 +42,38 @@ ul{
     flex: 1;
 }
 
+.two{
+    display: flex;
+    padding: 46px 128px 128px;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.twohead{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 46px 0 0 0;
+    display: flex;
+    justify-content: center;   
+}
+
+.shoe{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.gallery{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
 .header{
     display:flex;
     justify-content: space-between;
@@ -86,3 +118,71 @@ ul{
     font-size: 26px;
     color: #E5E7EB;
 }
+
+.three{
+    background: #E5E7EB;
+    padding: 64px 256px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-style: italic;
+    flex-wrap: wrap;
+    font-weight: lighter;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.four{
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 56px;
+    
+}
+
+.bluefour{
+    background: #3882F6;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.textfour{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.direction{
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+}
+
+.signb{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 36px;
+}
+
